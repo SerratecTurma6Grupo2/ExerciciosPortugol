@@ -1,9 +1,8 @@
 programa
 {
 	/*1 - Modifique o exercício 6 da lista anterior para imprimir os números de 1 até n e
-também realizar sua soma.
-
-Exemplo de entrada: 6 Saída esperada: 1 2 3 4 5 6*/
+	também realizar sua soma.
+	Exemplo de entrada: 6 Saída esperada: 1 2 3 4 5 6*/
 	
 	funcao inicio()
 	{
