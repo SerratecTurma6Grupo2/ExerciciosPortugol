@@ -2,7 +2,7 @@ programa
 {
 	inclua biblioteca Matematica --> m
 	/*2 - Escreva um programa que armazene X números em um vetor e calcule o valor
-	médio do vetor.*/
+        médio do vetor.*/
 	funcao inicio()
 	{
 		real soma=0.0,x,vetor[100],resul=0.0
