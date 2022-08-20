@@ -18,25 +18,25 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num[5], maior, menor
+		inteiro num[5], maior, menor, i
 
-		para(inteiro x=0; x<5; x++)
+		para(i = 0; i < 5; i++)
 		{
-			escreva("Elemento - ", x, ": ")
-			leia(num[x])
+			escreva("Elemento - ", i, ": ")
+			leia(num[i])
 		}
 		maior = num[0]
 		menor = num[0]
 		
-		para(inteiro x=0; x<5; x++)
+		para(i = 0; i < 5; i++)
 		{
-			se(maior < num[x])
+			se(maior < num[i])
 			{
-				maior = num[x]
+				maior = num[i]
 			}
-			se(menor > num[x])
+			se(menor > num[i])
 			{
-				menor = num[x]
+				menor = num[i]
 			}
 		}
 		escreva("\nElemento máximo: ", maior, "\nElemento mínimo: ", menor)
